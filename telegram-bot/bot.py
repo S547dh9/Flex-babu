@@ -2,9 +2,9 @@
    from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
    # Replace 'YOUR_TOKEN' with your actual bot token
-   TOKEN = 'YOUR_TOKEN'
+   TOKEN = '7254519456:AAE3NCXWVjJd-CS-oJWgnY0AwP4sd6ftEmY'
    # Replace 'YOUR_CHANNEL_ID' with your actual channel ID
-   CHANNEL_ID = 'YOUR_CHANNEL_ID'
+   CHANNEL_ID = '-1002182503025'
 
    def start(update: Update, context: CallbackContext) -> None:
        update.message.reply_text('Bot is online!')
